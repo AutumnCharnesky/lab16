@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Landscape</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
+	</head>
+
+<body ng-app='newMod'>
+<div id="page">
+
+	<h1 class="header"></h1>
+
+<div id="bg1"><span title="IE6 Bug"></span></div>
+<div id="bg2">
+<div id="menu">
+<h1>Natural view</h1>
+<h2>Like a landscape</h2>
+<div class="clear" sidebar></div>
+<sidebar></sidebar>
+<div class="clear"></div>
+</div>
+
+<div id="content">
+<div id="left">
+<div class="cpad lpad">
+<h2>Sidebar</h2>
+<p class="italic">This is it. Here you can put various informations about your website. It's up to you.</p>
+<h2>Useful stuff</h2>
+<p>Here are list of my favourite open-source projects.</p>
+<ul>
+	<li><a href="http://www.gimp.org" title="The GNU Image Manipulation Program">GIMP</a></li>
+	<li><a href="http://hugin.sf.net" title="Panorama Tools GUI">Hugin</a></li>
+	<li><a href="http://www.gentoo.org" title="Gentoo Linux News">Gentoo Linux</a></li>
+	<li><a href="http://www.firefox.com" title="Firefox - Rediscover the Web">Firefox</a>, <a href="http://www.opera.com" title="Opera web browser: Homepage">Opera</a></li>
+	<li><a href="http://bluefish.openoffice.nl" title="Bluefish Editor : Home">Bluefish</a></li>
+	<li>And etc.</li>
+</ul>
+</div>
+</div>
+
+<div id="right">
+<new-content></new-content>
+
+<h2>UList</h2>
+<p>Follow these steps, or use your own standards.</p>
+<ul>
+	<li>Your webpages should be valid XHTML and CSS.</li>
+	<li>Follow the <a href="http://www.w3.org/WAI/" title="Web Accessibility Initiative">WAI</a></li>
+	<li>Use headings and have hierarchical structure of them (SEO)</li>
+	<li>Don't use fixed page or table layouts if it isn't necessary</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+</div>
+
+<div id="footer">
+<p>&copy; <a href="http://www.nubian.sk" title="Home of Nubian">Nubian</a>, 2007. This work is licensed under the <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Deed">Creative Commons Attribution</a> license.
+<br />You are free to copy, distribute, display, and perform the work and derivative works based upon it as long as you credit me and link to my homepage.</p>
+</div>
+<div id="fbg"><span title="Another IE6 Bug"></span></div>
+
+</div>
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="directive.js"></script>
+<script src="directive2.js"></script>
+<script src="directive3.js"></script>
+
+<ng-view><ng-view>
+
+</body>
+
+</html>
